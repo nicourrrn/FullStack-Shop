@@ -1,3 +1,0 @@
-# github.com/nicourrrn/littleLogger v1.0.0
-## explicit; go 1.17
-github.com/nicourrrn/littleLogger

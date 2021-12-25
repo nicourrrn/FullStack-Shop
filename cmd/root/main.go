@@ -8,16 +8,17 @@ import (
 	"os"
 )
 
+const DEBUG = true
+
 func main() {
 	logFile, _ := os.Create("logs/log.txt")
-	logger, err := littleLogger.NewLogger(logFile, 1)
+	logger, err := littleLogger.NewLogger(logFile, DEBUG)
+	defer logger.Wait()
 	if err != nil {
 		log.Fatalln(err)
 	}
 	logger.Info("Hello")
-	logger.SetFormatter(func() string {
-		return "$msg\n"
-	})
+	logger.SetFormatter(littleLogger.FormatterClassic)
 	order := orderModel.NewOrder(10)
 	logger.Debug("New order make")
 	order.AddProduct(1)
