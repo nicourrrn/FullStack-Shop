@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	orderModel "fullstack-shop/pkg/kernel/model/obj/order"
+	orderModel "fullstack-shop/pkg/kernel/model/obj"
 	"github.com/nicourrrn/littleLogger"
 	"log"
 	"os"

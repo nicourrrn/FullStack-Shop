@@ -12,9 +12,7 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-logs
-/vendor/
-conf/.env
-# For saving IDE enviromment
-.idea
+# vendor/
 
+.idea
+.env

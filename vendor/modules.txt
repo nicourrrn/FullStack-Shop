@@ -1,0 +1,10 @@
+# github.com/golang-jwt/jwt v3.2.2+incompatible
+## explicit
+github.com/golang-jwt/jwt
+# github.com/nicourrrn/littleLogger v1.1.6
+## explicit; go 1.17
+github.com/nicourrrn/littleLogger
+# golang.org/x/crypto v0.0.0-20211215153901-e495a2d5b3d3
+## explicit; go 1.17
+golang.org/x/crypto/bcrypt
+golang.org/x/crypto/blowfish

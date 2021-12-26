@@ -1,6 +1,6 @@
-package user
+package subj
 
-type User struct {
+type Supplier struct {
 	ID           int
 	OrderIDs     []int
 	Login, Email string
@@ -8,7 +8,7 @@ type User struct {
 	PassHash     string
 }
 
-func (u User) NewOrder() {
+func (u User) NewSupplier() {
 	//TODO Написать реализацию после написания кода БД
 	//u.OrderIDs = append(u.OrderIDs)
 }

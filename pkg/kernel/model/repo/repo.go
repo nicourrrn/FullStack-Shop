@@ -1,8 +1,7 @@
 package repo
 
 import (
-	"fullstack-shop/pkg/kernel/model/obj/order"
-	"fullstack-shop/pkg/kernel/model/obj/product"
+	"fullstack-shop/pkg/kernel/model/obj"
 )
 
 type BDKey struct {
